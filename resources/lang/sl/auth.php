@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'failed' => 'Podatki za prijavo se ne ujemajo.',
-    'throttle' => 'Preveč poizkusov prijave. Ponovno poizkusi čez :seconds sekund.',
+    'failed' => 'These credentials do not match our records.',
+    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
 
 ];
