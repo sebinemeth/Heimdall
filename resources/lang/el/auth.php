@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'failed' => 'Αυτά τα διαπιστευτήρια δεν ταιριάζουν με τα μητρώα μας.',
-    'throttle' => 'Πολλές προσπάθειες εισόδου. Παρακαλούμε προσπαθήστε ξανά σε :seconds δευτερόλεπτα.',
+    'failed' => 'These credentials do not match our records.',
+    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
 
 ];
