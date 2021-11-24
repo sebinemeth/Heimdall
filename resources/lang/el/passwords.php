@@ -13,10 +13,10 @@ return [
     |
     */
 
-    'password' => 'Οι κωδικοί πρόσβασης πρέπει να αποτελλούνται τουλάχιστον από έξι χαρακτήρες και να ταιριάζουν με την επικύρωση.',
-    'reset' => 'Έχει γίνει επαναφορά του κωδικού σας!',
-    'sent' => 'Σας στείλαμε ένα Ε-mail με τον σύνδεσμο για την επαναφορά του κωδικού πρόσβασής σας!',
-    'token' => 'Αυτό το token για την επαναφορά του κωδικού πρόσβασής σας είναι άκυρο.',
-    'user' => "Δεν μπορούμε να βρόυμε κάποιον χρήστη με αυτή τη διεύθυνση E-mail.",
+    'password' => 'Passwords must be at least six characters and match the confirmation.',
+    'reset' => 'Your password has been reset!',
+    'sent' => 'We have e-mailed your password reset link!',
+    'token' => 'This password reset token is invalid.',
+    'user' => "We can't find a user with that e-mail address.",
 
 ];
