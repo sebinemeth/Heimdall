@@ -1,115 +1,120 @@
 <?php
 
-return array (
-  'settings.system' => 'Järjestelmä',
-  'settings.appearance' => 'Ulkonäkö',
-  'settings.miscellaneous' => 'Sekalainen',
-  'settings.support' => 'Tue',
-  'settings.donate' => 'Lahjoita',
+return [
 
-  'settings.version' => 'Versio',
-  'settings.background_image' => 'Taustakuva',
-  'settings.window_target' => 'Linkit aukeaa',
-  'settings.window_target.current' => 'Avaa tässä välilehdessä',
-  'settings.window_target.one' => 'Avaa samassa välilehdessä',
-  'settings.window_target.new' => 'Avaa uudessa välilehdessä',
-  'settings.homepage_search' => 'Kotisivu Haku',
-  'settings.search_provider' => 'Hakupalvelu',
-  'settings.language' => 'Kieli',
-  'settings.reset' => 'Palauta oletusasetukset',
-  'settings.remove' => 'Poista',
-  'settings.search' => 'haku',
-  'settings.no_items' => 'Kohteita ei löytynyt',
+    /*
+    |--------------------------------------------------------------------------
+    | App Language Lines
+    |--------------------------------------------------------------------------
+    |
+    */
 
+    'settings.system' => 'System',
+    'settings.appearance' => 'Appearance',
+    'settings.miscellaneous' => 'Miscellaneous',
+    'settings.support' => 'Support',
+    'settings.donate' => 'Donate',
 
-  'settings.label' => 'Etiketti',
-  'settings.value' => 'Arvo',
-  'settings.edit' => 'Muokkaa',
-  'settings.view' => 'Näkymä',
-
-
-  'options.none' => '- ei asetettu -',
-  'options.google' => 'Google',
-  'options.ddg' => 'DuckDuckGo',
-  'options.bing' => 'Bing',
-  'options.qwant' => 'Qwant',
-  'options.startpage' => 'Etusivu',
-  'options.yes' => 'Kyllä',
-  'options.no' => 'Ei',
+    'settings.version' => 'Version',
+    'settings.background_image' => 'Background Image',
+    'settings.window_target' => 'Link opens in',
+    'settings.window_target.current' => 'Open in this tab',
+    'settings.window_target.one' => 'Open in the same tab',
+    'settings.window_target.new' => 'Open in a new tab',
+    'settings.homepage_search' => 'Homepage Search',
+    'settings.search_provider' => 'Default Search Provider',
+    'settings.language' => 'Language',
+    'settings.reset' => 'Reset back to default',
+    'settings.remove' => 'Remove',
+    'settings.search' => 'search',
+    'settings.no_items' => 'No items found',
 
 
-  'buttons.save' => 'Tallenna',
-  'buttons.cancel' => 'Peruuta',
-  'buttons.add' => 'Lisää',
-  'buttons.upload' => 'Lataa tiedosto',
-  'buttons.downloadapps' => 'Päivitä sovelluslistaa',
+    'settings.label' => 'Label',
+    'settings.value' => 'Value',
+    'settings.edit' => 'Edit',
+    'settings.view' => 'View',
+
+    'options.none' => '- not set -',
+    'options.google' => 'Google',
+    'options.ddg' => 'DuckDuckGo',
+    'options.bing' => 'Bing',
+    'options.qwant' => 'Qwant',
+    'options.startpage' => 'StartPage',
+    'options.yes' => 'Yes',
+    'options.no' => 'No',
+    'options.nzbhydra' => 'NZBHydra',
+    'options.jackett' => 'Jackett',
+
+    'buttons.save' => 'Save',
+    'buttons.cancel' => 'Cancel',
+    'buttons.add' => 'Add',
+    'buttons.upload' => 'Upload an icon',
+    'buttons.downloadapps' => 'Update Apps List',
+
+    'dash.pin_item' => 'Pin item to dashboard',
+    'dash.no_apps' => 'There are currently no pinned applications, :link1 or :link2',
+    'dash.link1' => 'Add an application here',
+    'dash.link2' => 'Pin an item to the dash',
+    'dash.pinned_items' => 'Pinned Items',
+
+    'apps.app_list' => 'Application list',
+    'apps.view_trash' => 'View trash',
+    'apps.add_application' => 'Add application',
+    'apps.application_name' => 'Application name',
+    'apps.colour' => 'Colour',
+    'apps.icon' => 'Icon',
+    'apps.pinned' => 'Pinned',
+    'apps.title' => 'Title',
+    'apps.hex' => 'Hex colour',
+    'apps.username' => 'Username',
+    'apps.password' => 'Password',
+    'apps.config' => 'Config',
+    'apps.apikey' => 'API Key',
+    'apps.enable' => 'Enable',
+    'apps.tag_list' => 'Tags list',
+    'apps.add_tag' => 'Add tag',
+    'apps.tag_name' => 'Tag name',
+    'apps.tags' => 'Tags',
+    'apps.override' => 'If different to main url',
+    'apps.preview' => 'Preview',
+    'apps.apptype' => 'Application Type',
+
+    'dashboard' => 'Home dashboard',
+
+    'user.user_list' => 'Users',
+    'user.add_user' => 'Add user',
+    'user.username' => 'Username',
+    'user.avatar' => 'Avatar',
+    'user.email' => 'Email',
+    'user.password_confirm' => 'Confirm Password',
+    'user.secure_front' => 'Allow public access to front - Only enforced if a password is set.',
+    'user.autologin' => 'Allow logging in from a specific URL. Anyone with the link can login.',
+
+    'url' => 'URL',
+    'title' => 'Title',
+    'delete' => 'Delete',
+    'optional' => 'Optional',
+    'restore' => 'Restore',
+
+    'alert.success.item_created' => 'Item created successfully',
+    'alert.success.item_updated' => 'Item updated successfully',
+    'alert.success.item_deleted' => 'Item deleted successfully',
+    'alert.success.item_restored' => 'Item restored successfully',
+    'alert.success.updating' => 'Updating apps list',
+
+    'alert.success.tag_created' => 'Tag created successfully',
+    'alert.success.tag_updated' => 'Tag updated successfully',
+    'alert.success.tag_deleted' => 'Tag deleted successfully',
+    'alert.success.tag_restored' => 'Tag restored successfully',
+
+    'alert.success.setting_updated' => 'You have successfully edited this setting',
+    'alert.error.not_exist' => 'This setting does not exist.',
+
+    'alert.success.user_created' => 'User created successfully',
+    'alert.success.user_updated' => 'User updated successfully',
+    'alert.success.user_deleted' => 'User deleted successfully',
+    'alert.success.user_restored' => 'User restored successfully',
 
 
-  'dash.pin_item' => 'Kiinnitä kohde hallintapaneliin',
-  'dash.no_apps' => 'Tällä hetkellä ei ole kiinnitettyjä sovelluksia :link1 tai :link2',
-  'dash.link1' => 'Lisää sovellus tähän',
-  'dash.link2' => 'Kiinnitä kohde hallintapaneliin',
-  'dash.pinned_items' => 'Kiinnitetyt Kohteet',
-
-
-  'apps.app_list' => 'Sovellusluettelo',
-  'apps.view_trash' => 'Näytä roskakori',
-  'apps.add_application' => 'Lisää sovellus',
-  'apps.application_name' => 'Sovelluksen nimi',
-  'apps.colour' => 'Väri',
-  'apps.icon' => 'Kuvake',
-  'apps.pinned' => 'Kiinnitetty',
-  'apps.title' => 'Otsikko',
-  'apps.hex' => 'Hex väri',
-  'apps.username' => 'Käyttäjätunnus',
-  'apps.password' => 'Salasana',
-  'apps.config' => 'Konfiguraatio',
-  'apps.apikey' => 'API Avain',
-  'apps.enable' => 'Aktivoi',
-  'apps.tag_list' => 'Tagi lista',
-  'apps.add_tag' => 'Lisää tagi',
-  'apps.tag_name' => 'Tagin nimi',
-  'apps.tags' => 'Tagit',
-  'apps.override' => 'Jos eri kuin pää-osoite',
-  'apps.preview' => 'Esikatsele',
-
-
-  'user.user_list' => 'Käyttäjät',
-  'user.add_user' => 'Lisää käyttäjä',
-  'user.username' => 'Käyttäjänimi',
-  'user.avatar' => 'Avatar',
-  'user.email' => 'Sähköposti',
-  'user.password_confirm' => 'Vahvista salasana',
-  'user.secure_front' => 'Salli yleinen pääsy etusivulle - Pakotetaan ainoastaan jos salasana on asetettu.',
-  'user.autologin' => 'Salli sisäänkirjautuminen tietystä URLista. Linkilläk uka tahansa pystyy kirjautua.',
-
-
-  'url' => 'Url',
-  'title' => 'Otsikko',
-  'delete' => 'Poistaa',
-  'optional' => 'Valinnainen',
-  'restore' => 'Palauta',
-
-
-  'alert.success.item_created' => 'Kohde luotu onnistuneesti',
-  'alert.success.item_updated' => 'Kohde päivitetty onnistuneesti',
-  'alert.success.item_deleted' => 'Kohde poistettu onnistuneesti',
-  'alert.success.item_restored' => 'Kohde palautettu onnistuneesti',
-
-
-  'alert.success.tag_created' => 'Tagi luotu onnistuneesti',
-  'alert.success.tag_updated' => 'Tagi päivitetty onnistuneesti',
-  'alert.success.tag_deleted' => 'Tagi poistettu onnistuneesti',
-  'alert.success.tag_restored' => 'Tagi palautettu onnistuneesti',
-  'alert.success.updating' => 'Päivitetään sovelluslistaa',
-
-
-  'alert.success.setting_updated' => 'Asetus muokattu onnistuneesti',
-  'alert.error.not_exist' => 'Tätä asetusta ei ole olemassa.',
-
-
-  'alert.success.user_created' => 'Käyttäjä luotu onnistuneesti',
-  'alert.success.user_updated' => 'Käyttäjä päivitetty onnistuneesti',
-  'alert.success.user_deleted' => 'Käyttäjä poistettu onnistuneesti',
-  'alert.success.user_restored' => 'Käyttäjä palautettu onnistuneesti',
-);
+];
