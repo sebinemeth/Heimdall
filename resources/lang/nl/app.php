@@ -40,10 +40,11 @@ return [
     'options.ddg' => 'DuckDuckGo',
     'options.bing' => 'Bing',
     'options.qwant' => 'Qwant',
-
+    'options.startpage' => 'StartPage',
     'options.yes' => 'Ja',
     'options.no' => 'Nee',
     'options.nzbhydra' => 'NZBHydra',
+    'options.jackett' => 'Jackett',
 
     'buttons.save' => 'Opslaan',
     'buttons.cancel' => 'Annuleren',
@@ -79,6 +80,8 @@ return [
     'apps.preview' => 'Voorbeeld',
     'apps.apptype' => 'Applicatietype',
 
+    'dashboard' => 'Home dashboard',
+
     'user.user_list' => 'Gebruikers',
     'user.add_user' => 'Gebruiker toevoegen',
     'user.username' => 'Gebruikersnaam',
@@ -91,7 +94,7 @@ return [
     'url' => 'URL',
     'title' => 'Titel',
     'delete' => 'Verwijderen',
-    'optional' => 'Optioneel',    
+    'optional' => 'Optioneel',
     'restore' => 'Herstellen',
 
     'alert.success.item_created' => 'Item met succes aangemaakt',

@@ -43,6 +43,8 @@ return [
     'options.startpage' => 'StartPage',
     'options.yes' => 'Sim',
     'options.no' => 'Não',
+    'options.nzbhydra' => 'NZBHydra',
+    'options.jackett' => 'Jackett',
 
     'buttons.save' => 'Guardar',
     'buttons.cancel' => 'Cancelar',
@@ -77,6 +79,8 @@ return [
     'apps.override' => 'Se diferente do URL principal',
     'apps.preview' => 'Pré-visualizar',
     'apps.apptype' => 'Tipo de Aplicação',
+
+    'dashboard' => 'Home dashboard',
 
     'user.user_list' => 'Utilizadores',
     'user.add_user' => 'Adicionar utilizador',

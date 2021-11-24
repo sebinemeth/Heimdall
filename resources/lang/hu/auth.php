@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'failed' => 'Kimlik bilgileri doğru değil.',
-    'throttle' => 'Çok fazla girişim. :seconds saniye sonra tekrar deneyin.',
+    'failed' => 'A belépési adatok nem találhatók.',
+    'throttle' => 'Túl sok bejelentkezési kísérlet. Próbáld újra :seconds mp múlva.',
 
 ];

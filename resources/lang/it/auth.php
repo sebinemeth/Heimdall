@@ -1,5 +1,7 @@
 <?php
+
 return [
+
     /*
     |--------------------------------------------------------------------------
     | Authentication Language Lines
@@ -10,6 +12,8 @@ return [
     | these language lines according to your application's requirements.
     |
     */
+
     'failed' => 'Le credenziali non sono valide.',
     'throttle' => 'Troppi tentativi di accesso. Riprovare in :seconds secondi.',
+
 ];

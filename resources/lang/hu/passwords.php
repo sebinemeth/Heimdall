@@ -13,10 +13,10 @@ return [
     |
     */
 
-    'password' => 'Şifre en az altı karakter olmalı ve onaylamasına uymalıdır.',
-    'reset' => 'Şifreniz sıfırlandı!',
-    'sent' => 'Şifre sıfırlama bağlantısı eposta adresinize yollandı!',
-    'token' => 'Şifre sıfırlama simgesi geçerli değil.',
-    'user' => "Adresle ilişkili kullanıcı adı bulunamadı.",
+    'password' => 'A jelszónak legalább hat karakterből kell állnia és a két jelszónak meg kell egyeznie.',
+    'reset' => 'A jelszavadat visszaállítottuk!',
+    'sent' => 'Emailben elküldtük a jelszóvisszaállító linket!',
+    'token' => 'Ez a jelszóvisszaállító token érvénytelen.',
+    'user' => "Nincs felhasználó ezzel az emailcímmel.",
 
 ];
