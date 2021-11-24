@@ -13,10 +13,10 @@ return [
     |
     */
 
-    'password' => 'Passwords must be at least six characters and match the confirmation.',
-    'reset' => 'Your password has been reset!',
-    'sent' => 'We have e-mailed your password reset link!',
-    'token' => 'This password reset token is invalid.',
-    'user' => "We can't find a user with that e-mail address.",
+    'password' => 'A jelszónak legalább hat karakterből kell állnia és a két jelszónak meg kell egyeznie.',
+    'reset' => 'A jelszavadat visszaállítottuk!',
+    'sent' => 'Emailben elküldtük a jelszóvisszaállító linket!',
+    'token' => 'Ez a jelszóvisszaállító token érvénytelen.',
+    'user' => "Nincs felhasználó ezzel az emailcímmel.",
 
 ];
